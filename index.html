@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web syte</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family = Монтсеррат: wght @ 400; 700 & display = swap "
+        rel=" stylesheet ">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- contacts section -->
+
+        <section class="contacts-section">
+            <a href="tg://resolve?domain=nikname" class="telegram-link">
+                <img src="./img/img/icons/telegram-icon.svg" class="telegram-icon" alt="telegram-link">
+            </a>
+            <a href="viber://chat?number=+380676081196" class="viber-link">
+                <img src="./img/img/icons/viber-icon.svg" class="viber-icon" alt="viber-link">
+            </a>
+            <a href="tel:+380676081169" class="phone-link-icon">
+                <img src="./img/img/icons/phone-icon.svg" class="phone-icon" alt="phone-link-icon">
+            </a>
+            <a href="tel:+380676081169" class="phone-link-number">
+                +38(067)608-11-96
+            </a>
+
+        </section>
+
+        <!-- Experience section -->
+
+        <section class="experience-section">
+            <img src="./img/my-photo.jpg" alt="My photo" class="my-photo"> 
+
+            <div>
+                <img src="./img/img/icons/linkedin-icon.svg" alt="My linkedin link" class="icon-linkedin-icon">
+                <img src="./img/img/icons/fb-icon.svg" alt="My facebook link" class="fb-icon">
+            </div>
+
+            <div class="experience-description">
+                <p class="experience-description-text experience-description-text-first">32 готовых проекта</p>
+                <p class="experience-description-text">2 года опыта</p>
+            </div>
+
+            <div class="technologies-container">
+                <img src="./img/img/icons/js-icon.svg" alt="" class="js-icon">
+                <img src="./img/img/icons/react-icon.svg" alt="" class="react-icon">
+                <img src="./img/img/icons/nodejs-icon.svg" alt="" class="icon">
+            </div>
+
+            <a href="https://www.behance.net/">Мои работы</a>
+
+        </section>
+
+ 
+        <!-- My info section -->
+
+        <section class="my-info-section">
+            <h2 class="my-name">Привет! Я - Андрей</h2>
+
+            <h1 class="my-profession">Я делаю сайты</h1>
+
+            <p class="my-location">Живу в Украине</p>
+            <p class="my-workstyle">Работаю удаленно</p>
+
+            <p class="my-description">Я - человек-оркестр. В одиночку заменяю целую веб-студию.</p>
+
+            <div>
+                <p class="my-skills-title">Умею:</p>
+                
+                <ul class="my-skill-list">
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                        Управлять IT-проектами и командами;
+                        </p>
+                    </li>
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                        Senior Front End разработчик;
+                        </p>
+                    </li>
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                        Middle Back End разработчик;
+                        </p>
+                    </li>
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                        Могу проконтролировать качество своего или вашего проекта, как QA - специалист.
+                        </p>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        
+        <!-- project-price-section -->
+        
+        <section class="project-price-section">
+            <form action="#" class="project-price-form" method="post" name="Просчет проекта" data-netlify="true" id="project-price-form">
+                <h4 class="project-price-title">Расчитай стоимость проекта</h4>
+
+                <div class="project-type-container">
+                    <label for="project-type" class="project-price-form-field-title">Тип сайта</label>
+                    <select name="project-type" id="project-type" class="project-price-select">
+                        <option selected value="landing-page">Landing page</option>
+                        <option value="online-store">Online Store</option>
+                        <option value="web-application">Web Application</option>
+                        <option value="mobile-application">Mobile Application</option>
+                    </select>
+                </div>
+
+                <div class="activity-type-container">
+                    <p class="project-price-form-field-title">Тип работ</p>
+
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="project-management" id="project-management" class="activity-type-checkbox">
+                        <label for="project-management" class="activity-type-title">Project Management</label>
+                    </div>
+                    
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="design" id="design" class="activity-type-checkbox">
+                        <label for="design" class="activity-type-title">Design</label>
+                    </div>
+                    
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="development" id="development" class="activity-type-checkbox">
+                        <label for="development" class="activity-type-title">Development</label>
+                    </div>
+                    
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="qa" id="qa" class="activity-type-checkbox">
+                        <label for="qa" class="activity-type-title">QA</label>
+                    </div>
+                </div>
+
+                <div class="project-type-container">
+                    <p class="project-price-form-field-title">Стоимость</p>
+                    <p class="project-price-sum"><span class="project-price-sum-currency">$</span> <span id="total-price">0</span></p>
+                </div>
+
+                <input type="hidden" name="Email">
+
+                <div class="project-price-calculate-btn-container">    
+                    <button class="project-price-calculate-btn">Отправить запрос</button>
+                </div>
+
+            </form>
+        </section>
+    </div>
+
+    <!-- Modal section -->
+
+    <div class="modal-bgd" id="modal-email">
+        <div class="modal-container">
+                <button class="modal-close-btn">
+                    <img src="./img/img/icons/close-icon.svg" alt="close-icon">
+                </button>
+                <img src="./img/img/icons/mail-icon.svg" alt="mail-icon" class="modal-icon">
+                <h4 class="modal-title">Я свяжусь с вами на<br>
+                протяжении ближайшего часа</h4>
+
+                <form action="#" class="modal-container-form" id="modal-email-container">
+                    <div class="email-input-container" id="email-input-container">
+                        <label for="user-email" class="user-email-title">Email</label>
+                        <input type="email" name="user-email" id="user-email" class="user-email" placeholder="Укажите email">
+                        <p class="email-error-text">Проверьте email</p>
+                    </div>
+
+                    <button type="submit" class="modal-submit-btn">Отправить</button>
+                </form>
+
+        </div>
+    </div>
+
+
+    <div class="modal-bgd" id="success-modal">
+        <div class="modal-container modal-container-success">
+            <button class="modal-close-btn">
+                <img src="./img/img/icons/close-icon.svg" alt="close-icon">
+            </button>
+
+            <img src="./img/img/icons/success-icon.svg" alt="success-icon" class="modal-success-icon">
+
+            <p class="modal-cuccess-message">Ваше сообщение отправлено!</p>
+        </div>
+    </div> 
+    
+    
+    <script src="./js/script.js"></script>
+    
+        
+
+  
+    
+</body>
+</html>
