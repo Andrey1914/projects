@@ -1,0 +1,38 @@
+.contacts-section {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.telegram-link,
+.viber-link,
+.phone-link-icon {
+    text-decoration: none;
+}
+
+.telegram-icon,
+.viber-icon,
+.phone-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.viber-icon {
+    margin-left: 15px;
+}
+
+.phone-icon {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.phone-link-number {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}

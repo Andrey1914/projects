@@ -83,12 +83,14 @@ h1 {
 }
 
 .fb-icon {
-    width: 18px;
-    height: 18px;
-    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    /* margin-left: 15px; */
 }
 
-.linkedin-icon {
+.icon-linkedin-icon {
+    width: 30px;
+    height: 30px;
     margin-right: 15px;
 }
 
@@ -111,6 +113,11 @@ margin-bottom: 35px;
     margin-bottom: 50px;
 }
 
+.technologies {
+    width: 30px;
+    height: 30px;
+}
+
 .react-icon {
     margin-right: 14px;
     margin-left: 15px;
@@ -122,7 +129,8 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: #EB5757;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-decoration: none;
 }
 
 /* My info section */
@@ -158,10 +166,7 @@ a {
     line-height: 24px;
     color: #ffffff;
     background: #2F80ED;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -193,7 +198,7 @@ a {
 .my-skills-item {
     font-size: 16px;
     line-height: 24px;
-     color: #2F80ED;
+    color: #2F80ED;
 }
 
 .my-skills-text {
